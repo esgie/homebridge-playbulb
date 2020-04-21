@@ -1,5 +1,5 @@
 var PlaybulbCandle = require('./lib/playbulbcandle.js');
-var noble = require('noble');
+var noble = require('@pruthvikar/noble');
 
 var Characteristic, Service, Accessory, UUIDGen;
 var DEFAULT_SERVICE_TYPE = "ff02";
