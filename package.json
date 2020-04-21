@@ -1,6 +1,6 @@
 {
   "name": "homebridge-playbulb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A homebridge accessory for the Mipow Playbulb Candle LED candles",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,6 @@
     "homebridge": ">=0.2.0"
   },
   "dependencies": {
-    "noble": ">=1.7.0"
+    "@pruthvikar/noble": ">=1.10.12"
   }
 }
